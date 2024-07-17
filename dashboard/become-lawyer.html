@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <div class="page">
+        <div class="menu-bar">
+            <div class="site-title">
+                <h3>Lawyers</h3>
+            </div>
+            <ul class="menu">
+                <li class="menu-item"><a href="/">Customer Dashboard</a></li>
+                <li class="menu-item active"><a href="./index.html">Admin Dashboard</a></li>
+                <li class="menu-item"><a href="./become-lawyer.html">Become A Lawyer</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="overview">
+                <div class="box">
+                    <div class="title"><span>Users</span></div>
+                    <div class="value"><span>16</span></div>
+                </div>
+                <div class="box">
+                    <div class="title"><span>Lawyers</span></div>
+                    <div class="value"><span>8</span></div>
+                </div>
+                <div class="box">
+                    <div class="title"><span>Solved Cases</span></div>
+                    <div class="value"><span>8</span></div>
+                </div>
+                <div class="box">
+                    <div class="title"><span>Pendings</span></div>
+                    <div class="value"><span>8</span></div>
+                </div>
+            </div>
+            <div class="page-section">
+                <div class="section_title">
+                    <h3>Apply To Have Lawyer Account</h3>
+                </div>
+                <div class="form_container ">
+                    <form method="post" accept="">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="fname">Full Name</label>
+                                <input type="text" id="fname" name="fname" placeholder="Full Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="cnic">CNIC</label>
+                                <input type="text" id="cnic" name="cnic" placeholder="cnic">
+                            </div>
+                            <div class="form-group" style="">
+                                <label for="mobile">Mobile</label>
+                                <input type="text" id="mobile" name="mobile" placeholder="mobile">
+                            </div>
+                            <div class="form-group" style="">
+                                <label for="email">Email</label>
+                                <input type="text" id="email" name="email" placeholder="email">
+                            </div>
+                            <div class="form-group" style="">
+                                <label for="experties">Experties</label>
+                                <select id="experties" name="experties" style="padding: 5px;">
+                                    <option value="criminal">Criminal</option>
+                                    <option value="divorce">Divorce</option>
+                                    <option value="affidavit">Affidavit</option>
+                                    <option value="civil">Civil</option>
+                                </select>
+                                
+                            </div>
+                            <div class="form-group" style="">
+                                <label for="area">Area</label>
+                                <select id="area" name="area" style="padding: 5px;">
+                                    <option value="area1">Area 1</option>
+                                    <option value="area2">Area 2</option>
+                                    <option value="area3">Area 3</option>
+                                    <option value="area4">Area 4</option>
+                                </select>
+                            </div>
+                            <div class="form-group" style="">
+                                <label for="cnic_img">Cnic Image</label>
+                                <input type="file" id="cnic_img" name="cnic_img" placeholder="cnic_img">
+                            </div>
+                            <div class="form-group" style="">
+                                <label for="sdoc">Supporting Document</label>
+                                <input type="file" id="sdoc" name="sdoc" placeholder="sdoc">
+                            </div>
+                            <div class="form-group" style="width: 90%;">
+                                <label for="about">About Me</label>
+                                <textarea rows="5" type="text" id="about" style="resize: none;" name="sdoc" placeholder="sdoc"></textarea>
+                            </div>
+
+                            <div class="form-group" style="width: 90%;">
+                                <div>
+                                    <button class="btn-appointment">Submit request</button>
+                                </div>
+                            </div>
+                            
+
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
